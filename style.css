@@ -1,0 +1,80 @@
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 980px;
+    background-color: #F1F1F1;
+    color: #666666;
+    margin: auto;
+    margin-top: 1em;
+}
+h1{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5em;
+    margin-bottom: 0.01em;
+}
+h2{
+    margin-top: 0.1em;
+}
+#content{
+    background:white;
+}
+#banner{
+    text-align: right;
+    background-image: url("images/hero.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    min-height: 650px;
+    padding-right: 3em;
+    padding-top: 3em;
+    border: rgb(223, 223, 223) solid;
+    border-width: 0.2em 0.2em 0.05em 0.2em;
+}
+#banner h1{
+    margin-top:0;
+    padding-right: 4rem;
+    padding-bottom: 0.2rem;
+}
+#banner h2{
+    padding-right: 4rem;
+    margin-top: 0;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    color: black;
+    border: rgb(223, 223, 223) solid;
+    border-width: 0.05em 0.2em 0 0.2em;
+    background: linear-gradient(rgb(243, 243, 243), white);
+}
+a{
+    text-decoration: none;
+    color: #08C;
+}
+#specs{
+    text-align: center;
+    border-collapse: collapse;
+    margin:0 2em 2em 2em;
+}
+td{
+    border: rgb(223, 223, 223) solid;
+    border-spacing: 0;
+    padding: 1em;
+}
+#table{
+    padding-top: 2em;
+    border: rgb(223, 223, 223) solid;
+    border-width: 0 0.2em 0.2em 0.2em;
+}
+th{
+    border: rgb(223, 223, 223) solid;
+    border-spacing: 0;
+}
+td h1{
+    font-size: 2em;
+    padding: 0 0 1em 0;
+}
